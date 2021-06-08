@@ -1,0 +1,7 @@
+<%= form_for task do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title, placeholder: "Your next task" %>
+  <%= f.label :details %>
+  <%= f.text_field :details, placeholder: "Exactly HOW" %>
+  <%= f.submit class: "btn btn-info" %>
+<% end %>
